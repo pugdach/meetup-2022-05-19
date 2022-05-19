@@ -1,0 +1,15 @@
+---
+Gemfile:
+  optional:
+    ':system_tests':
+      - gem: 'puppet-lint-security-plugins'
+
+appveyor.yml:
+  delete: true
+
+.gitlab-ci.yml:
+  delete: true
+
+.gitignore: 
+  paths:
+    - "/_old_code/"
