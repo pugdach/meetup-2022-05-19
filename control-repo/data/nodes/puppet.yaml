@@ -1,0 +1,16 @@
+---
+classes:
+  - 'infrastructure::puppet::r10k'
+  - 'infrastructure::puppet::autosign'
+  - 'infrastructure::puppet::puppetdb'
+  - 'infrastructure::puppet::puppetboard'
+  - 'infrastructure::puppet::puppetmaster'
+
+infrastructure::puppet::r10k::control_repo: 'file:///tmp/control-repo/.git'
+puppet_enterprise::profile::master::code_manager_auto_configure: true
+puppet_enterprise::profile::master::r10k_remote: 'file:///tmp/control-repo/.git'
+puppet_enterprise::profile::console::rbac_session_timeout: 4320
+infrastructure::puppet::puppetmaster::student_roles:
+  - 3
+#  - 2 # Operators - Node Group Berechtigungen
+#  - 5 # Project Deployers - Tasks/Plans

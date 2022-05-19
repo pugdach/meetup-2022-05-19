@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+# onceover + plugins
+gem 'onceover'
+gem 'onceover-codequality'
+gem 'onceover-octocatalog-diff', git: 'https://github.com/tuxmea/onceover-octocatalog-diff.git', ref: 'newer_puppet'
+gem 'onceover-lookup'
+# lint extensions
+gem 'voxpupuli-test'
+gem 'puppet-lint-security-plugins'
+

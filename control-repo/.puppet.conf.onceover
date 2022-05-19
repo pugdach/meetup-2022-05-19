@@ -1,0 +1,13 @@
+[main]
+hiera_config  = hiera.yaml
+codedir       = .onceover/etc/puppetlabs/code
+ssldir        = spec/ssl
+# certname      = fake.fake
+
+# Not strictly required but use separate directories to avoid polluting the host
+vardir        = .onceover/tmp
+logdir        = .onceover/tmp
+statedir      = .onceover/tmp
+rundir        = .onceover/tmp
+libdir        = .onceover/tmp
+environment   = "production"

@@ -1,0 +1,4 @@
+require 'onceover/rake_tasks'
+require 'voxpupuli/test/rake'
+require 'rubocop/rake_task'
+

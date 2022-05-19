@@ -1,0 +1,2309 @@
+  {
+    "name": "puppet.int1.betadots.training",
+    "values": {
+      "puppet_release": "opensource",
+      "systemd_internal_services": {
+        "systemd-nspawn@.service": "disabled",
+        "systemd-bootchart.service": "disabled",
+        "systemd-readahead-done.service": "indirect",
+        "systemd-readahead-drop.service": "enabled",
+        "systemd-readahead-replay.service": "enabled",
+        "systemd-readahead-collect.service": "enabled"
+      },
+      "operatingsystemmajrelease": "7",
+      "docker_manager_join_token": "",
+      "puppet_metrics_dashboard": {
+        "versions": {
+          "puppetdb": "6.21.0"
+        },
+        "overwrite_dashboards_disabled": false
+      },
+      "docker_worker_join_token": "",
+      "puppet_environmentpath": "/etc/puppetlabs/code/environments",
+      "physicalprocessorcount": 1,
+      "operatingsystemrelease": "7.9.2009",
+      "blockdevice_sr0_vendor": "QEMU",
+      "blockdevice_sda_vendor": "QEMU",
+      "selinux_policyversion": "31",
+      "selinux_config_policy": "targeted",
+      "docker_server_version": "20.10.14",
+      "docker_client_version": "20.10.14",
+      "blockdevice_sr0_model": "QEMU DVD-ROM",
+      "blockdevice_sda_model": "QEMU HARDDISK",
+      "selinux_current_mode": "permissive",
+      "blockdevice_sr0_size": 1073741312,
+      "blockdevice_sda_size": 163842097152,
+      "selinux_config_mode": "permissive",
+      "macaddress_docker0": "02:42:98:5d:52:f4",
+      "agent_status_check": {
+        "AS001": true
+      },
+      "ipaddress_docker0": "172.17.0.1",
+      "ip6tables_version": "1.4.21",
+      "bios_release_date": "11/11/2017",
+      "aio_agent_version": "6.27.1",
+      "service_provider": "systemd",
+      "selinux_enforced": false,
+      "r10k_environment": "production",
+      "package_provider": "yum",
+      "kernelmajversion": "3.10",
+      "iptables_version": "1.4.21",
+      "vcsrepo_svn_ver": "",
+      "systemd_version": "219",
+      "operatingsystem": "CentOS",
+      "network_docker0": "172.17.0.0",
+      "netmask_docker0": "255.255.0.0",
+      "macaddress_eth1": "86:00:00:0d:b9:f0",
+      "macaddress_eth0": "96:00:01:3f:23:71",
+      "ipaddress6_eth1": "fe80::808:6f7f:1060:a155",
+      "ipaddress6_eth0": "2a01:4f8:c012:44e2::1",
+      "uptime_seconds": 8603,
+      "puppet_release": "opensource",
+      "processorcount": 4,
+      "ipaddress_eth1": "10.0.1.1",
+      "ipaddress_eth0": "167.235.241.112",
+      "docker_version": {
+        "Client": {
+          "ApiVersion": "1.41",
+          "Arch": "amd64",
+          "DefaultAPIVersion": "1.41",
+          "Context": "default",
+          "GoVersion": "go1.16.15",
+          "Platform": {
+            "Name": "Docker Engine - Community"
+          },
+          "Experimental": true,
+          "Version": "20.10.14",
+          "GitCommit": "a224086",
+          "BuildTime": "Thu Mar 24 01:49:57 2022",
+          "Os": "linux"
+        },
+        "Server": {
+          "Components": [
+            {
+              "Name": "Engine",
+              "Details": {
+                "ApiVersion": "1.41",
+                "Arch": "amd64",
+                "KernelVersion": "3.10.0-1160.62.1.el7.x86_64",
+                "GoVersion": "go1.16.15",
+                "MinAPIVersion": "1.12",
+                "Experimental": "false",
+                "GitCommit": "87a90dc",
+                "BuildTime": "Thu Mar 24 01:48:24 2022",
+                "Os": "linux"
+              },
+              "Version": "20.10.14"
+            },
+            {
+              "Name": "containerd",
+              "Details": {
+                "GitCommit": "3df54a852345ae127d1fa3092b95168e4a88e2f8"
+              },
+              "Version": "1.5.11"
+            },
+            {
+              "Name": "runc",
+              "Details": {
+                "GitCommit": "v1.0.3-0-gf46b6ba"
+              },
+              "Version": "1.0.3"
+            },
+            {
+              "Name": "docker-init",
+              "Details": {
+                "GitCommit": "de40ad0"
+              },
+              "Version": "0.19.0"
+            }
+          ],
+          "ApiVersion": "1.41",
+          "Arch": "amd64",
+          "KernelVersion": "3.10.0-1160.62.1.el7.x86_64",
+          "GoVersion": "go1.16.15",
+          "Platform": {
+            "Name": "Docker Engine - Community"
+          },
+          "MinAPIVersion": "1.12",
+          "Version": "20.10.14",
+          "GitCommit": "87a90dc",
+          "BuildTime": "2022-03-24T01:48:24.000000000+00:00",
+          "Os": "linux"
+        }
+      },
+      "cert_extension": {
+        "pp_role": "puppet",
+        "pp_zone": "hetzner",
+        "pp_network": "training20220427.betadots.training",
+        "pp_datacenter": "cloud",
+        "pp_application": "training",
+        "pp_environment": "prod"
+      },
+      "system_uptime": {
+        "days": 0,
+        "hours": 2,
+        "uptime": "2:23 hours",
+        "seconds": 8603
+      },
+      "sshfp_ed25519": "SSHFP 4 1 321a63640f446340bc22b3b65705bdc72801e8dd\nSSHFP 4 2 f410a3bf00c1130cd6099324e657c15baf29df1345a5ddd54e793bd1e5475bb8",
+      "sshed25519key": "AAAAC3NzaC1lZDI1NTE5AAAAIFOY+pXc7dup1wpgrxsetp+mSZeKP8XO+fQrNk5OZRjj",
+      "puppetversion": "6.27.0",
+      "puppet_vardir": "/opt/puppetlabs/puppet/cache",
+      "puppet_server": "puppet",
+      "network6_eth1": "fe80::",
+      "network6_eth0": "2a01:4f8:c012:44e2::",
+      "netmask6_eth1": "ffff:ffff:ffff:ffff::",
+      "netmask6_eth0": "ffff:ffff:ffff:ffff::",
+      "memorysize_mb": 15506.90625,
+      "memoryfree_mb": 12697.1953125,
+      "load_averages": {
+        "1m": 0.16,
+        "5m": 0.05,
+        "15m": 0.06
+      },
+      "kernelversion": "3.10.0",
+      "kernelrelease": "3.10.0-1160.62.1.el7.x86_64",
+      "ipaddress6_lo": "::1",
+      "hardwaremodel": "x86_64",
+      "facterversion": "3.14.23",
+      "clientversion": "6.27.0",
+      "augeasversion": "1.12.0",
+      "uptime_hours": 2,
+      "serialnumber": "19996522",
+      "rubyplatform": "x86_64-linux",
+      "pe_databases": {
+        "have_systemd": true
+      },
+      "network_eth1": "10.0.1.1",
+      "network_eth0": "167.235.241.112",
+      "netmask_eth1": "255.255.255.255",
+      "netmask_eth0": "255.255.255.255",
+      "manufacturer": "Hetzner",
+      "ipaddress_lo": "127.0.0.1",
+      "fips_enabled": false,
+      "dhcp_servers": {
+        "eth0": "172.31.1.1",
+        "eth1": "10.0.0.1",
+        "system": "172.31.1.1"
+      },
+      "blockdevices": "sda,sr0",
+      "bios_version": "20171111",
+      "architecture": "x86_64",
+      "uptime_days": 0,
+      "sshfp_ecdsa": "SSHFP 3 1 3f2359dea4f272c6f1197ff17a1cdbad8db2186e\nSSHFP 3 2 edcc88a4b9ab1dfb38a8975dcbc39d2809398f91ae79b52f2bad73960ef78ce5",
+      "sshecdsakey": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIGi1E9r//qvG8MiHRb0Wj29aOZdOax0rgxee/9N1DZoXL6clqIyqz0DEJ5fOYq8vmCEUOkExbGKggob+CRCwTQ=",
+      "scope6_eth1": "link",
+      "scope6_eth0": "global",
+      "rubyversion": "2.5.9",
+      "rubysitedir": "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.5.0",
+      "productname": "vServer",
+      "network6_lo": "::1",
+      "netmask6_lo": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+      "mtu_docker0": 1500,
+      "mountpoints": {
+        "/run": {
+          "filesystem": "tmpfs",
+          "capacity": "0.11%",
+          "size": "7.57 GiB",
+          "available_bytes": 8121036800,
+          "device": "tmpfs",
+          "options": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "mode=755"
+          ],
+          "available": "7.56 GiB",
+          "used_bytes": 9048064,
+          "size_bytes": 8130084864,
+          "used": "8.63 MiB"
+        },
+        "/sys/fs/cgroup": {
+          "filesystem": "tmpfs",
+          "capacity": "0%",
+          "size": "7.57 GiB",
+          "available_bytes": 8130084864,
+          "device": "tmpfs",
+          "options": [
+            "ro",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "mode=755"
+          ],
+          "available": "7.57 GiB",
+          "used_bytes": 0,
+          "size_bytes": 8130084864,
+          "used": "0 bytes"
+        },
+        "/dev/mqueue": {
+          "filesystem": "mqueue",
+          "capacity": "100%",
+          "size": "0 bytes",
+          "available_bytes": 0,
+          "device": "mqueue",
+          "options": [
+            "rw",
+            "seclabel",
+            "relatime"
+          ],
+          "available": "0 bytes",
+          "used_bytes": 0,
+          "size_bytes": 0,
+          "used": "0 bytes"
+        },
+        "/": {
+          "filesystem": "ext4",
+          "capacity": "3.01%",
+          "size": "150.19 GiB",
+          "available_bytes": 150006849536,
+          "device": "/dev/sda1",
+          "options": [
+            "rw",
+            "seclabel",
+            "relatime",
+            "data=ordered"
+          ],
+          "available": "139.70 GiB",
+          "used_bytes": 4651790336,
+          "size_bytes": 161262018560,
+          "used": "4.33 GiB"
+        },
+        "/dev/hugepages": {
+          "filesystem": "hugetlbfs",
+          "capacity": "100%",
+          "size": "0 bytes",
+          "available_bytes": 0,
+          "device": "hugetlbfs",
+          "options": [
+            "rw",
+            "seclabel",
+            "relatime"
+          ],
+          "available": "0 bytes",
+          "used_bytes": 0,
+          "size_bytes": 0,
+          "used": "0 bytes"
+        },
+        "/dev/shm": {
+          "filesystem": "tmpfs",
+          "capacity": "0.00%",
+          "size": "7.57 GiB",
+          "available_bytes": 8130068480,
+          "device": "tmpfs",
+          "options": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev"
+          ],
+          "available": "7.57 GiB",
+          "used_bytes": 16384,
+          "size_bytes": 8130084864,
+          "used": "16.00 KiB"
+        },
+        "/run/docker/netns/default": {
+          "filesystem": "proc",
+          "capacity": "100%",
+          "size": "0 bytes",
+          "available_bytes": 0,
+          "device": "proc",
+          "options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime"
+          ],
+          "available": "0 bytes",
+          "used_bytes": 0,
+          "size_bytes": 0,
+          "used": "0 bytes"
+        },
+        "/dev/pts": {
+          "filesystem": "devpts",
+          "capacity": "100%",
+          "size": "0 bytes",
+          "available_bytes": 0,
+          "device": "devpts",
+          "options": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "noexec",
+            "relatime",
+            "gid=5",
+            "mode=620",
+            "ptmxmode=000"
+          ],
+          "available": "0 bytes",
+          "used_bytes": 0,
+          "size_bytes": 0,
+          "used": "0 bytes"
+        },
+        "/var/lib/docker/overlay2/8596d17d5f2d36a154d092017f18b353a1a132438d2b21164e4ede55bb554318/merged": {
+          "filesystem": "overlay",
+          "capacity": "3.01%",
+          "size": "150.19 GiB",
+          "available_bytes": 150006849536,
+          "device": "overlay",
+          "options": [
+            "rw",
+            "seclabel",
+            "relatime",
+            "lowerdir=/var/lib/docker/overlay2/l/43657VGHPTMMUR6LOFVAA7I6VH:/var/lib/docker/overlay2/l/VIRNRYGZXEN3ID73KW56UOGF7E:/var/lib/docker/overlay2/l/J7QHWP66SE4CACC445S2B2WD6R:/var/lib/docker/overlay2/l/CHHG2FBKIHV3BINJOGWRR4IVN2:/var/lib/docker/overlay2/l/LVH5QV5LPFW5YGPZGD5A5TL73L:/var/lib/docker/overlay2/l/PQPVZT7MY22GLFZQOJNXST3C7Q:/var/lib/docker/overlay2/l/TT4VYTUDVA4FYSRBP2P5OM5CFA:/var/lib/docker/overlay2/l/DYNC53VEGQ3DMWHUJBATPTQDX3:/var/lib/docker/overlay2/l/44PO7P2V7X2BCEF5PD4JPQEDNV:/var/lib/docker/overlay2/l/A7F437PIAGVDP62AEQKD3JYLC4:/var/lib/docker/overlay2/l/M4TM3XFA2UMYBM3KZGUKDAOWLT:/var/lib/docker/overlay2/l/CAPS7ZMJNWUG6QLORA6OAAWDJV",
+            "upperdir=/var/lib/docker/overlay2/8596d17d5f2d36a154d092017f18b353a1a132438d2b21164e4ede55bb554318/diff",
+            "workdir=/var/lib/docker/overlay2/8596d17d5f2d36a154d092017f18b353a1a132438d2b21164e4ede55bb554318/work"
+          ],
+          "available": "139.70 GiB",
+          "used_bytes": 4651790336,
+          "size_bytes": 161262018560,
+          "used": "4.33 GiB"
+        },
+        "/run/user/0": {
+          "filesystem": "tmpfs",
+          "capacity": "0%",
+          "size": "1.51 GiB",
+          "available_bytes": 1626017792,
+          "device": "tmpfs",
+          "options": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "relatime",
+            "size=1587908k",
+            "mode=700"
+          ],
+          "available": "1.51 GiB",
+          "used_bytes": 0,
+          "size_bytes": 1626017792,
+          "used": "0 bytes"
+        },
+        "/dev": {
+          "filesystem": "devtmpfs",
+          "capacity": "0%",
+          "size": "7.55 GiB",
+          "available_bytes": 8104968192,
+          "device": "devtmpfs",
+          "options": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "size=7915008k",
+            "nr_inodes=1978752",
+            "mode=755"
+          ],
+          "available": "7.55 GiB",
+          "used_bytes": 0,
+          "size_bytes": 8104968192,
+          "used": "0 bytes"
+        }
+      },
+      "hypervisors": {
+        "kvm": {
+        }
+      },
+      "hardwareisa": "x86_64",
+      "filesystems": "ext2,ext3,ext4",
+      "chassistype": "Other",
+      "bios_vendor": "Hetzner",
+      "processors": {
+        "isa": "x86_64",
+        "count": 4,
+        "models": [
+          "Intel Xeon Processor (Skylake, IBRS)",
+          "Intel Xeon Processor (Skylake, IBRS)",
+          "Intel Xeon Processor (Skylake, IBRS)",
+          "Intel Xeon Processor (Skylake, IBRS)"
+        ],
+        "physicalcount": 1
+      },
+      "processor3": "Intel Xeon Processor (Skylake, IBRS)",
+      "processor2": "Intel Xeon Processor (Skylake, IBRS)",
+      "processor1": "Intel Xeon Processor (Skylake, IBRS)",
+      "processor0": "Intel Xeon Processor (Skylake, IBRS)",
+      "partitions": {
+        "/dev/sda1": {
+          "size": "152.59 GiB",
+          "uuid": "f5d3cbc2-dcb5-49f5-b1b6-f09ab4f81da2",
+          "mount": "/",
+          "filesystem": "ext4",
+          "size_bytes": 163841031680
+        }
+      },
+      "networking": {
+        "interfaces": {
+          "lo": {
+            "ip": "127.0.0.1",
+            "bindings6": [
+              {
+                "address": "::1",
+                "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+                "network": "::1"
+              }
+            ],
+            "mtu": 65536,
+            "bindings": [
+              {
+                "address": "127.0.0.1",
+                "netmask": "255.0.0.0",
+                "network": "127.0.0.0"
+              }
+            ],
+            "network6": "::1",
+            "netmask6": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+            "ip6": "::1",
+            "netmask": "255.0.0.0",
+            "network": "127.0.0.0",
+            "scope6": "host"
+          },
+          "eth0": {
+            "ip": "167.235.241.112",
+            "bindings6": [
+              {
+                "address": "2a01:4f8:c012:44e2::1",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "network": "2a01:4f8:c012:44e2::"
+              },
+              {
+                "address": "fe80::9400:1ff:fe3f:2371",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "network": "fe80::"
+              }
+            ],
+            "mtu": 1500,
+            "bindings": [
+              {
+                "address": "167.235.241.112",
+                "netmask": "255.255.255.255",
+                "network": "167.235.241.112"
+              }
+            ],
+            "network6": "2a01:4f8:c012:44e2::",
+            "dhcp": "172.31.1.1",
+            "netmask6": "ffff:ffff:ffff:ffff::",
+            "ip6": "2a01:4f8:c012:44e2::1",
+            "netmask": "255.255.255.255",
+            "network": "167.235.241.112",
+            "scope6": "global",
+            "mac": "96:00:01:3f:23:71"
+          },
+          "eth1": {
+            "ip": "10.0.1.1",
+            "bindings6": [
+              {
+                "address": "fe80::808:6f7f:1060:a155",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "network": "fe80::"
+              }
+            ],
+            "mtu": 1450,
+            "bindings": [
+              {
+                "address": "10.0.1.1",
+                "netmask": "255.255.255.255",
+                "network": "10.0.1.1"
+              }
+            ],
+            "network6": "fe80::",
+            "dhcp": "10.0.0.1",
+            "netmask6": "ffff:ffff:ffff:ffff::",
+            "ip6": "fe80::808:6f7f:1060:a155",
+            "netmask": "255.255.255.255",
+            "network": "10.0.1.1",
+            "scope6": "link",
+            "mac": "86:00:00:0d:b9:f0"
+          },
+          "docker0": {
+            "ip": "172.17.0.1",
+            "mac": "02:42:98:5d:52:f4",
+            "mtu": 1500,
+            "netmask": "255.255.0.0",
+            "network": "172.17.0.0",
+            "bindings": [
+              {
+                "address": "172.17.0.1",
+                "netmask": "255.255.0.0",
+                "network": "172.17.0.0"
+              }
+            ]
+          }
+        },
+        "ip": "167.235.241.112",
+        "primary": "eth0",
+        "mtu": 1500,
+        "network6": "2a01:4f8:c012:44e2::",
+        "hostname": "puppet",
+        "dhcp": "172.31.1.1",
+        "fqdn": "puppet.int1.betadots.training",
+        "netmask6": "ffff:ffff:ffff:ffff::",
+        "ip6": "2a01:4f8:c012:44e2::1",
+        "netmask": "255.255.255.255",
+        "network": "167.235.241.112",
+        "domain": "int1.betadots.training",
+        "scope6": "global",
+        "mac": "96:00:01:3f:23:71"
+      },
+      "network_lo": "127.0.0.0",
+      "netmask_lo": "255.0.0.0",
+      "memorysize": "15.14 GiB",
+      "memoryfree": "12.40 GiB",
+      "macaddress": "96:00:01:3f:23:71",
+      "is_virtual": true,
+      "ipaddress6": "2a01:4f8:c012:44e2::1",
+      "interfaces": "docker0,eth0,eth1,lo",
+      "clientnoop": false,
+      "clientcert": "puppet.int1.betadots.training",
+      "sshrsakey": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDAPzV/npCwovvKiYRssogULSH0VZw3s2C+fWFZR/4JNUy67GB+AkDoUsiTXuP7+Jej+Sd4JCmvne+qWpuRJDZr5Er/AdO+uGayQfzxV2BeTAOS12H0QHPz0I9chWNQ5hOJ2FwQTSeOR2B9PxtGp1y+20f/X6mn2sB3YwvTAgPhvTuZSjBtQ5H6QmLR1sib/aO5MRBJ6+VuoUsuY6zpRkmX8wqVX3K1KrFTEmGadecgIodLbJJ/180NPlCKSlEpWAs95/xRND0JaVJD/l/jemz1gWhOeunxryJKorOIGjEyqdFeuh5NoAyq0Du7aZWcGbzmHoozHONfx4Whz4uiIRpV",
+      "sshfp_rsa": "SSHFP 1 1 3b87b2c080d5b8e664cdbaf76ca6b2a3d0b0b3d0\nSSHFP 1 2 31b34c0757498d171e64088246512cb6b9bd47237e83b27c8fc5fadca51d8be7",
+      "scope6_lo": "host",
+      "root_home": "/root",
+      "r10k_path": "/usr/local/bin/r10k",
+      "ipaddress": "167.235.241.112",
+      "timezone": "UTC",
+      "osfamily": "RedHat",
+      "network6": "2a01:4f8:c012:44e2::",
+      "netmask6": "ffff:ffff:ffff:ffff::",
+      "mtu_eth1": 1450,
+      "mtu_eth0": 1500,
+      "identity": {
+        "gid": 0,
+        "uid": 0,
+        "user": "root",
+        "group": "root",
+        "privileged": true
+      },
+      "hostname": "puppet",
+      "virtual": "kvm",
+      "trusted": {
+        "domain": "int1.betadots.training",
+        "certname": "puppet.int1.betadots.training",
+        "external": {
+        },
+        "hostname": "puppet",
+        "extensions": {
+          "pp_role": "puppet",
+          "pp_zone": "hetzner",
+          "pp_network": "training20220427.betadots.training",
+          "pp_datacenter": "cloud",
+          "pp_application": "training",
+          "pp_environment": "prod",
+          "1.3.6.1.4.1.34380.1.3.39": "true"
+        },
+        "authenticated": "remote"
+      },
+      "systemd": true,
+      "selinux": true,
+      "network": "167.235.241.112",
+      "netmask": "255.255.255.255",
+      "uptime": "2:23 hours",
+      "scope6": "global",
+      "mtu_lo": 65536,
+      "memory": {
+        "system": {
+          "used": "2.74 GiB",
+          "total": "15.14 GiB",
+          "capacity": "18.12%",
+          "available": "12.40 GiB",
+          "used_bytes": 2946195456,
+          "total_bytes": 16260169728,
+          "available_bytes": 13313974272
+        }
+      },
+      "kernel": "Linux",
+      "domain": "int1.betadots.training",
+      "docker": {
+        "ID": "6ZKD:WF77:6N6M:ELLR:CYF3:TC7Y:PS23:UTRN:X3CR:2CQQ:RV5P:VVOM",
+        "Runtimes": {
+          "runc": {
+            "path": "runc"
+          },
+          "io.containerd.runc.v2": {
+            "path": "runc"
+          },
+          "io.containerd.runtime.v1.linux": {
+            "path": "runc"
+          }
+        },
+        "LiveRestoreEnabled": false,
+        "MemTotal": 16260169728,
+        "SecurityOptions": [
+          "name=seccomp,profile=default"
+        ],
+        "ClientInfo": {
+          "Debug": false,
+          "Context": "default",
+          "Plugins": [
+            {
+              "Name": "app",
+              "Path": "/usr/libexec/docker/cli-plugins/docker-app",
+              "Vendor": "Docker Inc.",
+              "Version": "v0.9.1-beta3",
+              "Experimental": true,
+              "SchemaVersion": "0.1.0",
+              "ShortDescription": "Docker App"
+            },
+            {
+              "Name": "buildx",
+              "Path": "/usr/libexec/docker/cli-plugins/docker-buildx",
+              "Vendor": "Docker Inc.",
+              "Version": "v0.8.1-docker",
+              "SchemaVersion": "0.1.0",
+              "ShortDescription": "Docker Buildx"
+            },
+            {
+              "Name": "scan",
+              "Path": "/usr/libexec/docker/cli-plugins/docker-scan",
+              "Vendor": "Docker Inc.",
+              "Version": "v0.17.0",
+              "SchemaVersion": "0.1.0",
+              "ShortDescription": "Docker Scan"
+            }
+          ],
+          "Warnings": ""
+        },
+        "PidsLimit": true,
+        "Isolation": "",
+        "BridgeNfIptables": false,
+        "DriverStatus": [
+          [
+            "Backing Filesystem",
+            "extfs"
+          ],
+          [
+            "Supports d_type",
+            "true"
+          ],
+          [
+            "Native Overlay Diff",
+            "true"
+          ],
+          [
+            "userxattr",
+            "false"
+          ]
+        ],
+        "Labels": [
+  
+        ],
+        "ContainerdCommit": {
+          "ID": "3df54a852345ae127d1fa3092b95168e4a88e2f8",
+          "Expected": "3df54a852345ae127d1fa3092b95168e4a88e2f8"
+        },
+        "Driver": "overlay2",
+        "DefaultRuntime": "runc",
+        "LoggingDriver": "json-file",
+        "NFd": 34,
+        "Architecture": "x86_64",
+        "CpuCfsQuota": true,
+        "NGoroutines": 47,
+        "Images": 1,
+        "Containers": 1,
+        "CgroupDriver": "cgroupfs",
+        "ExperimentalBuild": false,
+        "KernelMemory": true,
+        "CPUSet": true,
+        "IndexServerAddress": "https://index.docker.io/v1/",
+        "SystemTime": "2022-04-27T14:55:12.947583211Z",
+        "OSVersion": "7",
+        "HttpsProxy": "",
+        "CPUShares": true,
+        "Plugins": {
+          "Log": [
+            "awslogs",
+            "fluentd",
+            "gcplogs",
+            "gelf",
+            "journald",
+            "json-file",
+            "local",
+            "logentries",
+            "splunk",
+            "syslog"
+          ],
+          "Volume": [
+            "local"
+          ],
+          "Network": [
+            "bridge",
+            "host",
+            "ipvlan",
+            "macvlan",
+            "null",
+            "overlay"
+          ],
+          "Authorization": ""
+        },
+        "SwapLimit": true,
+        "Debug": false,
+        "GenericResources": "",
+        "KernelVersion": "3.10.0-1160.62.1.el7.x86_64",
+        "NEventsListener": 0,
+        "MemoryLimit": true,
+        "OSType": "linux",
+        "BridgeNfIp6tables": false,
+        "CgroupVersion": "1",
+        "InitBinary": "docker-init",
+        "RegistryConfig": {
+          "Mirrors": [
+  
+          ],
+          "IndexConfigs": {
+            "docker.io": {
+              "Name": "docker.io",
+              "Secure": true,
+              "Mirrors": [
+  
+              ],
+              "Official": true
+            }
+          },
+          "InsecureRegistryCIDRs": [
+            "127.0.0.0/8"
+          ],
+          "AllowNondistributableArtifactsCIDRs": [
+  
+          ],
+          "AllowNondistributableArtifactsHostnames": [
+  
+          ]
+        },
+        "ServerVersion": "20.10.14",
+        "ContainersPaused": 0,
+        "OomKillDisable": true,
+        "Warnings": [
+          "WARNING: bridge-nf-call-iptables is disabled",
+          "WARNING: bridge-nf-call-ip6tables is disabled"
+        ],
+        "Name": "puppet.int1.betadots.training",
+        "NoProxy": "",
+        "RuncCommit": {
+          "ID": "v1.0.3-0-gf46b6ba",
+          "Expected": "v1.0.3-0-gf46b6ba"
+        },
+        "network": {
+          "host": {
+            "IPAM": {
+              "Config": [
+  
+              ],
+              "Driver": "default",
+              "Options": ""
+            },
+            "Labels": {
+            },
+            "Driver": "host",
+            "Id": "d9ca1029adf275a9395a8d3e4dd0332f1e5996995d387f4178fd164ac5813af1",
+            "Ingress": false,
+            "EnableIPv6": false,
+            "Containers": {
+              "8a516c08417c7d314b1e706705b0528c103fe1a90556a7c8406cd5760df43ca7": {
+                "Name": "puppetboard",
+                "EndpointID": "5db7230b1fdec27f0e3ac8d9d64f2affd7214078cd9c099c7ccd9da64aadd9af",
+                "MacAddress": "",
+                "IPv4Address": "",
+                "IPv6Address": ""
+              }
+            },
+            "Scope": "local",
+            "ConfigOnly": false,
+            "ConfigFrom": {
+              "Network": ""
+            },
+            "Attachable": false,
+            "Options": {
+            },
+            "Internal": false,
+            "Name": "host",
+            "Created": "2022-04-27T12:38:00.736114066Z"
+          },
+          "none": {
+            "IPAM": {
+              "Config": [
+  
+              ],
+              "Driver": "default",
+              "Options": ""
+            },
+            "Labels": {
+            },
+            "Driver": "null",
+            "Id": "8d5577eca8f34aabb0ea86c605af09672b7b5121db25fb2439684ee4dbcc30c4",
+            "Ingress": false,
+            "EnableIPv6": false,
+            "Containers": {
+            },
+            "Scope": "local",
+            "ConfigOnly": false,
+            "ConfigFrom": {
+              "Network": ""
+            },
+            "Attachable": false,
+            "Options": {
+            },
+            "Internal": false,
+            "Name": "none",
+            "Created": "2022-04-27T12:38:00.708550541Z"
+          },
+          "bridge": {
+            "IPAM": {
+              "Config": [
+                {
+                  "Subnet": "172.17.0.0/16",
+                  "Gateway": "172.17.0.1"
+                }
+              ],
+              "Driver": "default",
+              "Options": ""
+            },
+            "Labels": {
+            },
+            "Driver": "bridge",
+            "Id": "9432691bc9a1d8a61f5792df9cedc664af876e3d04f1590c23604f0c2b33a74a",
+            "Ingress": false,
+            "EnableIPv6": false,
+            "Containers": {
+            },
+            "Scope": "local",
+            "ConfigOnly": false,
+            "ConfigFrom": {
+              "Network": ""
+            },
+            "Attachable": false,
+            "Options": {
+              "com.docker.network.driver.mtu": "1500",
+              "com.docker.network.bridge.name": "docker0",
+              "com.docker.network.bridge.enable_icc": "true",
+              "com.docker.network.bridge.default_bridge": "true",
+              "com.docker.network.bridge.host_binding_ipv4": "0.0.0.0",
+              "com.docker.network.bridge.enable_ip_masquerade": "true"
+            },
+            "Internal": false,
+            "Name": "bridge",
+            "Created": "2022-04-27T12:42:56.306826995Z"
+          },
+          "managed_interfaces": {
+          }
+        },
+        "OperatingSystem": "CentOS Linux 7 (Core)",
+        "ContainersStopped": 0,
+        "IPv4Forwarding": true,
+        "Swarm": {
+          "Error": "",
+          "NodeID": "",
+          "NodeAddr": "",
+          "LocalNodeState": "inactive",
+          "RemoteManagers": "",
+          "ControlAvailable": false
+        },
+        "NCPU": 4,
+        "CpuCfsPeriod": true,
+        "KernelMemoryTCP": true,
+        "ContainersRunning": 1,
+        "DockerRootDir": "/var/lib/docker",
+        "HttpProxy": "",
+        "InitCommit": {
+          "ID": "de40ad0",
+          "Expected": "de40ad0"
+        }
+      },
+      "augeas": {
+        "version": "1.12.0"
+      },
+      "kmods": {
+        "uv_nmi": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "nmi_count": "0\n",
+            "retry_count": "500",
+            "wait_count": "100",
+            "debug": "0",
+            "dump_loglevel": "7",
+            "pch_init_enable": "Y",
+            "ping_misses": "0\n",
+            "trigger_delay": "10000",
+            "initial_delay": "100",
+            "ping_count": "0\n",
+            "loop_delay": "100",
+            "action": "dump\n",
+            "pch_intr_enable": "Y",
+            "slave_delay": "100",
+            "nmi_misses": "0\n"
+          }
+        },
+        "aesni_intel": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "keyboard": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "brl_timeout": "300",
+            "brl_nbchords": "1"
+          }
+        },
+        "failover": {
+          "used_by": [
+            "net_failover"
+          ],
+          "parameters": {
+          }
+        },
+        "virtio_console": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "usbhid": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "quirks": "(null),(null),(null),(null)",
+            "ignoreled": "0",
+            "mousepoll": "0"
+          }
+        },
+        "md_mod": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "start_ro": "0",
+            "create_on_open": "Y",
+            "start_dirty_degraded": "0"
+          }
+        },
+        "block": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "events_dfl_poll_msecs": "2000"
+          }
+        },
+        "ipt_MASQUERADE": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "hid_ntrig": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "min_width": "0",
+            "min_height": "0",
+            "activate_slack": "1",
+            "activation_width": "64",
+            "deactivate_slack": "4",
+            "activation_height": "32"
+          }
+        },
+        "libnvdimm": {
+          "used_by": [
+            "nfit"
+          ],
+          "parameters": {
+            "key_revalidate": "Y"
+          }
+        },
+        "nf_nat_masquerade_ipv4": {
+          "used_by": [
+            "ipt_MASQUERADE"
+          ],
+          "parameters": {
+          }
+        },
+        "hid_apple": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "fnmode": "1",
+            "iso_layout": "1",
+            "swap_opt_cmd": "0"
+          }
+        },
+        "ip6table_filter": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "stp": {
+          "used_by": [
+            "bridge"
+          ],
+          "parameters": {
+          }
+        },
+        "vmd": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "ata_piix": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "scsi_mod": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "scan": "async",
+            "max_luns": "512",
+            "use_blk_mq": "N",
+            "eh_deadline": "-1",
+            "inq_timeout": "20",
+            "max_report_luns": "16383",
+            "default_dev_flags": "0",
+            "scsi_logging_level": "0"
+          }
+        },
+        "pata_acpi": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "ablk_helper": {
+          "used_by": [
+            "aesni_intel"
+          ],
+          "parameters": {
+          }
+        },
+        "debug_core": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "kgdbreboot": "0",
+            "kgdb_use_con": "0"
+          }
+        },
+        "nf_reject_ipv4": {
+          "used_by": [
+            "ipt_REJECT"
+          ],
+          "parameters": {
+          }
+        },
+        "llc": {
+          "used_by": [
+            "stp",
+            "bridge"
+          ],
+          "parameters": {
+          }
+        },
+        "acpi": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "ec_delay": "500",
+            "acpica_version": "20130517",
+            "aml_debug_output": "0",
+            "immediate_undock": "Y",
+            "ec_storm_threshold": "8"
+          }
+        },
+        "joydev": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "xhci_hcd": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "quirks": "0",
+            "link_quirk": "0"
+          }
+        },
+        "scsi_dh_alua": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "optimize_stpg": "0"
+          }
+        },
+        "mousedev": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "xres": "1024",
+            "yres": "768",
+            "tap_time": "200"
+          }
+        },
+        "sysfillrect": {
+          "used_by": [
+            "drm_kms_helper"
+          ],
+          "parameters": {
+          }
+        },
+        "crc32c_intel": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "crct10dif_common": {
+          "used_by": [
+            "crct10dif_pclmul",
+            "crct10dif_generic",
+            "crc_t10dif"
+          ],
+          "parameters": {
+          }
+        },
+        "pcie_aspm": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "policy": "[default] performance powersave "
+          }
+        },
+        "crc32_pclmul": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "i2c_piix4": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "workqueue": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "disable_numa": "N",
+            "power_efficient": "N"
+          }
+        },
+        "virtio_net": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "gso": "Y"
+          },
+          "used_by": [
+            "virtio_net",
+            "virtio_pci",
+            "virtio_balloon",
+            "virtio_console",
+            "virtio_scsi"
+          ],
+          "parameters": {
+          }
+        },
+        "nf_defrag_ipv6": {
+          "used_by": [
+            "nf_conntrack_ipv6"
+          ],
+          "parameters": {
+          }
+        },
+        "virtio_pci": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "force_legacy": "N"
+          }
+        },
+        "virtio_ring": {
+          "used_by": [
+            "virtio_net",
+            "virtio_pci",
+            "virtio_balloon",
+            "virtio_console",
+            "virtio_scsi"
+          ],
+          "parameters": {
+          }
+        },
+        "iosf_mbi": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "nf_nat": {
+          "used_by": [
+            "nf_nat_ipv4",
+            "nf_nat_masquerade_ipv4"
+          ],
+          "parameters": {
+          }
+        },
+        "sg": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "allow_dio": "0",
+            "scatter_elem_sz": "32768",
+            "def_reserved_size": "32768"
+          }
+        },
+        "acpiphp": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "disable": "N"
+          }
+        },
+        "nf_conntrack_netlink": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "cryptd": {
+          "used_by": [
+            "ghash_clmulni_intel",
+            "aesni_intel",
+            "ablk_helper"
+          ],
+          "parameters": {
+          }
+        },
+        "nf_defrag_ipv4": {
+          "used_by": [
+            "nf_conntrack_ipv4"
+          ],
+          "parameters": {
+          }
+        },
+        "ehci_hcd": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "park": "0",
+            "ignore_oc": "N",
+            "log2_irq_thresh": "0"
+          }
+        },
+        "gf128mul": {
+          "used_by": [
+            "lrw"
+          ],
+          "parameters": {
+          }
+        },
+        "sd_mod": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "ttm": {
+          "used_by": [
+            "bochs_drm"
+          ],
+          "parameters": {
+          }
+        },
+        "kgdboc": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "kgdboc": ""
+          }
+        },
+        "rcutree": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "blimit": "10",
+            "qhimark": "10000",
+            "qlowmark": "100",
+            "rcu_fanout_leaf": "16",
+            "jiffies_till_next_fqs": "3",
+            "jiffies_till_first_fqs": "3"
+          }
+        },
+        "efivars": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "ppdev": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "firmware_class": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "path": ""
+          }
+        },
+        "ip6_tables": {
+          "used_by": [
+            "ip6table_filter"
+          ],
+          "parameters": {
+          }
+        },
+        "efi_pstore": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "pstore_disable": "Y"
+          }
+        },
+        "battery": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "cache_time": "1000"
+          }
+        },
+        "hid_magicmouse": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "scroll_speed": "32",
+            "emulate_3button": "Y",
+            "report_undeciphered": "N",
+            "scroll_acceleration": "N",
+            "emulate_scroll_wheel": "Y"
+          }
+        },
+        "sysrq": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "reset_seq": "",
+            "sysrq_downtime_ms": "0"
+          }
+        },
+        "iptable_nat": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "rng_core": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "current_quality": "0",
+            "default_quality": "0"
+          }
+        },
+        "xt_conntrack": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "tcp_cubic": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "initial_ssthresh": "0",
+            "beta": "717",
+            "hystart": "1",
+            "hystart_low_window": "16",
+            "tcp_friendliness": "1",
+            "hystart_detect": "3",
+            "hystart_ack_delta": "2",
+            "fast_convergence": "1",
+            "bic_scale": "41"
+          }
+        },
+        "psmouse": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "rate": "100",
+            "proto": "auto",
+            "resetafter": "5",
+            "resolution": "200",
+            "resync_time": "0",
+            "smartscroll": "Y",
+            "a4tech_workaround": "N",
+            "synaptics_intertouch": "-1"
+          }
+        },
+        "cpuidle": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "off": "0"
+          }
+        },
+        "mbcache": {
+          "used_by": [
+            "ext4"
+          ],
+          "parameters": {
+          }
+        },
+        "suspend": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "pm_test_delay": "5"
+          }
+        },
+        "module": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "sig_enforce": "N"
+          }
+        },
+        "drm_kms_helper": {
+          "used_by": [
+            "bochs_drm"
+          ],
+          "parameters": {
+            "poll": "Y",
+            "edid_firmware": "",
+            "fbdev_emulation": "Y",
+            "drm_fbdev_overalloc": "100",
+            "dp_aux_i2c_speed_khz": "10",
+            "dp_aux_i2c_transfer_size": "16"
+          }
+        },
+        "netpoll": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "carrier_timeout": "4"
+          }
+        },
+        "bochs_drm": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "defx": "1024",
+            "defy": "768",
+            "fbdev": "Y",
+            "modeset": "-1"
+          }
+        },
+        "haltpoll": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "guest_halt_poll_ns": "200000",
+            "guest_halt_poll_grow": "2",
+            "guest_halt_poll_shrink": "2",
+            "guest_halt_poll_grow_start": "50000",
+            "guest_halt_poll_allow_shrink": "Y"
+          }
+        },
+        "pcmcia_core": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "unreset_delay": "10",
+            "resume_delay": "20",
+            "setup_delay": "10",
+            "reset_time": "10",
+            "unreset_check": "10",
+            "unreset_limit": "30",
+            "vcc_settle": "40",
+            "shutdown_delay": "3",
+            "cis_speed": "300"
+          }
+        },
+        "ata_generic": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "ext4": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "intel_idle": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "max_cstate": "9"
+          }
+        },
+        "floppy": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "iptable_filter": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "sysimgblt": {
+          "used_by": [
+            "drm_kms_helper"
+          ],
+          "parameters": {
+          }
+        },
+        "dynamic_debug": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "verbose": "0"
+          }
+        },
+        "lrw": {
+          "used_by": [
+            "aesni_intel"
+          ],
+          "parameters": {
+          }
+        },
+        "xz_dec": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "virtio_scsi": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "bridge": {
+          "used_by": [
+            "br_netfilter"
+          ],
+          "parameters": {
+          }
+        },
+        "xt_addrtype": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "libata": {
+          "used_by": [
+            "pata_acpi",
+            "ata_generic",
+            "ata_piix"
+          ],
+          "parameters": {
+            "allow_tpm": "0",
+            "atapi_enabled": "1",
+            "atapi_an": "0",
+            "atapi_dmadir": "0",
+            "ata_probe_timeout": "0",
+            "dma": "7",
+            "fua": "0",
+            "ignore_hpa": "0",
+            "noacpi": "0",
+            "acpi_gtf_filter": "7",
+            "atapi_passthru16": "1"
+          }
+        },
+        "overlay": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "index": "N",
+            "xino_auto": "N",
+            "nfs_export": "N",
+            "redirect_dir": "N",
+            "redirect_max": "256",
+            "check_copy_up": "1",
+            "redirect_always_follow": "N"
+          }
+        },
+        "drm_panel_orientation_quirks": {
+          "used_by": [
+            "drm"
+          ],
+          "parameters": {
+          }
+        },
+        "virtio_balloon": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "oom_pages": "256"
+          }
+        },
+        "fb_sys_fops": {
+          "used_by": [
+            "drm_kms_helper"
+          ],
+          "parameters": {
+          }
+        },
+        "printk": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "time": "Y",
+            "console_suspend": "Y",
+            "ignore_loglevel": "N",
+            "always_kmsg_dump": "N"
+          }
+        },
+        "pci_slot": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "debug": "N"
+          }
+        },
+        "nfit": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "no_init_ars": "N",
+            "override_dsm_mask": "0",
+            "default_dsm_family": "-1",
+            "force_enable_dimms": "N",
+            "disable_vendor_specific": "N"
+          }
+        },
+        "ipv6": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "disable": "0",
+            "autoconf": "1",
+            "disable_ipv6": "0"
+          }
+        },
+        "kdb_main": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "configfs": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "glue_helper": {
+          "used_by": [
+            "aesni_intel"
+          ],
+          "parameters": {
+          }
+        },
+        "ipt_REJECT": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "i8042": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "debug": "N"
+          }
+        },
+        "xt_comment": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "zswap": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "zpool": "zbud",
+            "enabled": "N",
+            "compressor": "lzo",
+            "max_pool_percent": "20"
+          }
+        },
+        "drm": {
+          "used_by": [
+            "ttm",
+            "bochs_drm",
+            "drm_kms_helper"
+          ],
+          "parameters": {
+            "debug": "0",
+            "edid_fixup": "6",
+            "edid_firmware": "",
+            "vblankoffdelay": "5000",
+            "timestamp_precision_usec": "20"
+          }
+        },
+        "uhci_hcd": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "debug": "1",
+            "ignore_oc": "N"
+          }
+        },
+        "br_netfilter": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "pcspkr": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "tpm_tis": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "hid": "",
+            "itpm": "N",
+            "force": "N",
+            "interrupts": "Y"
+          }
+        },
+        "kgdbts": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "kgdbts": ""
+          }
+        },
+        "kernel": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "nousb": "N",
+            "panic": "0",
+            "consoleblank": "0",
+            "panic_on_warn": "0",
+            "pause_on_oops": "0",
+            "initcall_debug": "N",
+            "module_blacklist": "(null)",
+            "crash_kexec_post_notifiers": "N"
+          }
+        },
+        "net_failover": {
+          "used_by": [
+            "virtio_net"
+          ],
+          "parameters": {
+          }
+        },
+        "rcupdate": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "rcu_cpu_stall_timeout": "60",
+            "rcu_cpu_stall_suppress": "0"
+          }
+        },
+        "shpchp": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "shpchp_debug": "N",
+            "shpchp_poll_mode": "N",
+            "shpchp_poll_time": "0"
+          }
+        },
+        "usbcore": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "usbfs_snoop_max": "65536",
+            "blinkenlights": "N",
+            "quirks": "",
+            "authorized_default": "-1",
+            "usbfs_memory_mb": "16",
+            "initial_descriptor_timeout": "5000",
+            "usbfs_snoop": "N",
+            "use_both_schemes": "Y",
+            "autosuspend": "2",
+            "old_scheme_first": "N"
+          }
+        },
+        "cdrom": {
+          "used_by": [
+            "sr_mod"
+          ],
+          "parameters": {
+          }
+        },
+        "ghash_clmulni_intel": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "xt_multiport": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "intel_ishtp": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "ishtp_use_dma": "0"
+          }
+        },
+        "jbd2": {
+          "used_by": [
+            "ext4"
+          ],
+          "parameters": {
+          }
+        },
+        "watchdog": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "handle_boot_enabled": "Y"
+          }
+        },
+        "sr_mod": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "xa_test": "0"
+          }
+        },
+        "crct10dif_pclmul": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "nf_conntrack_ipv6": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "crct10dif_generic": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "nf_reject_ipv6": {
+          "used_by": [
+            "ip6t_REJECT"
+          ],
+          "parameters": {
+          }
+        },
+        "tpm": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "suspend_pcr": "0"
+          }
+        },
+        "ip_tables": {
+          "used_by": [
+            "iptable_filter",
+            "iptable_nat"
+          ],
+          "parameters": {
+          }
+        },
+        "tpm_tis_core": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "parport_pc": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "vt": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "italic": "2",
+            "underline": "3",
+            "cur_default": "2",
+            "default_blu": "0,0,0,0,170,170,170,170,85,85,85,85,255,255,255,255",
+            "default_grn": "0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255",
+            "default_red": "0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255",
+            "default_utf8": "1",
+            "global_cursor_default": "1"
+          }
+        },
+        "spurious": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "irqfixup": "0",
+            "noirqdebug": "N"
+          }
+        },
+        "processor": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "ignore_ppc": "-1",
+            "ignore_tpc": "0",
+            "latency_factor": "2"
+          }
+        },
+        "libcrc32c": {
+          "used_by": [
+            "nf_nat",
+            "nf_conntrack"
+          ],
+          "parameters": {
+          }
+        },
+        "thermal": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "act": "0",
+            "crt": "0",
+            "psv": "0",
+            "tzp": "0"
+          }
+        },
+        "syscopyarea": {
+          "used_by": [
+            "drm_kms_helper"
+          ],
+          "parameters": {
+          }
+        },
+        "serio_raw": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "nf_nat_ipv4": {
+          "used_by": [
+            "iptable_nat"
+          ],
+          "parameters": {
+          }
+        },
+        "scsi_dh_rdac": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "rdac_logging": "1"
+          }
+        },
+        "nf_conntrack": {
+          "used_by": [
+            "nf_nat",
+            "nf_nat_ipv4",
+            "xt_conntrack",
+            "nf_nat_masquerade_ipv4",
+            "nf_conntrack_netlink",
+            "nf_conntrack_ipv4",
+            "nf_conntrack_ipv6"
+          ],
+          "parameters": {
+            "acct": "N",
+            "tstamp": "N",
+            "hashsize": "65536",
+            "expect_hashsize": "512",
+            "nf_conntrack_helper": "Y"
+          }
+        },
+        "ip6t_REJECT": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+          }
+        },
+        "hid": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "debug": "0",
+            "ignore_special_drivers": "0"
+          }
+        },
+        "8250": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "nr_uarts": "4",
+            "probe_rsa": "",
+            "share_irqs": "1",
+            "skip_txen_test": "0"
+          }
+        },
+        "crc_t10dif": {
+          "used_by": [
+            "sd_mod"
+          ],
+          "parameters": {
+          }
+        },
+        "pci_hotplug": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "debug": "N",
+            "debug_acpi": "N"
+          }
+        },
+        "pstore": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "backend": "(null)",
+            "update_ms": "-1"
+          }
+        },
+        "edac_core": {
+          "used_by": [
+  
+          ],
+          "parameters": {
+            "edac_mc_log_ce": "1",
+            "edac_mc_log_ue": "1",
+            "check_pci_errors": "0",
+            "edac_mc_poll_msec": "1000",
+            "edac_mc_panic_on_ue": "0",
+            "edac_pci_panic_on_pe": "0"
+          }
+        },
+        "parport": {
+          "used_by": [
+            "ppdev",
+            "parport_pc"
+          ],
+          "parameters": {
+          }
+        }
+      },
+      "is_pe": false,
+      "disks": {
+        "sda": {
+          "size": "152.59 GiB",
+          "model": "QEMU HARDDISK",
+          "vendor": "QEMU",
+          "size_bytes": 163842097152
+        },
+        "sr0": {
+          "size": "1.00 GiB",
+          "model": "QEMU DVD-ROM",
+          "vendor": "QEMU",
+          "size_bytes": 1073741312
+        }
+      },
+      "uuid": "94BE22C1-8F33-4465-8733-6F6EFA8C87CA",
+      "ruby": {
+        "sitedir": "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.5.0",
+        "version": "2.5.9",
+        "platform": "x86_64-linux"
+      },
+      "path": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/opt/puppetlabs/bin:/root/bin:/sbin",
+      "fqdn": "puppet.int1.betadots.training",
+      "ssh": {
+        "rsa": {
+          "key": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDAPzV/npCwovvKiYRssogULSH0VZw3s2C+fWFZR/4JNUy67GB+AkDoUsiTXuP7+Jej+Sd4JCmvne+qWpuRJDZr5Er/AdO+uGayQfzxV2BeTAOS12H0QHPz0I9chWNQ5hOJ2FwQTSeOR2B9PxtGp1y+20f/X6mn2sB3YwvTAgPhvTuZSjBtQ5H6QmLR1sib/aO5MRBJ6+VuoUsuY6zpRkmX8wqVX3K1KrFTEmGadecgIodLbJJ/180NPlCKSlEpWAs95/xRND0JaVJD/l/jemz1gWhOeunxryJKorOIGjEyqdFeuh5NoAyq0Du7aZWcGbzmHoozHONfx4Whz4uiIRpV",
+          "type": "ssh-rsa",
+          "fingerprints": {
+            "sha1": "SSHFP 1 1 3b87b2c080d5b8e664cdbaf76ca6b2a3d0b0b3d0",
+            "sha256": "SSHFP 1 2 31b34c0757498d171e64088246512cb6b9bd47237e83b27c8fc5fadca51d8be7"
+          }
+        },
+        "ecdsa": {
+          "key": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIGi1E9r//qvG8MiHRb0Wj29aOZdOax0rgxee/9N1DZoXL6clqIyqz0DEJ5fOYq8vmCEUOkExbGKggob+CRCwTQ=",
+          "type": "ecdsa-sha2-nistp256",
+          "fingerprints": {
+            "sha1": "SSHFP 3 1 3f2359dea4f272c6f1197ff17a1cdbad8db2186e",
+            "sha256": "SSHFP 3 2 edcc88a4b9ab1dfb38a8975dcbc39d2809398f91ae79b52f2bad73960ef78ce5"
+          }
+        },
+        "ed25519": {
+          "key": "AAAAC3NzaC1lZDI1NTE5AAAAIFOY+pXc7dup1wpgrxsetp+mSZeKP8XO+fQrNk5OZRjj",
+          "type": "ssh-ed25519",
+          "fingerprints": {
+            "sha1": "SSHFP 4 1 321a63640f446340bc22b3b65705bdc72801e8dd",
+            "sha256": "SSHFP 4 2 f410a3bf00c1130cd6099324e657c15baf29df1345a5ddd54e793bd1e5475bb8"
+          }
+        }
+      },
+      "gid": "root",
+      "dmi": {
+        "bios": {
+          "vendor": "Hetzner",
+          "version": "20171111",
+          "release_date": "11/11/2017"
+        },
+        "chassis": {
+          "type": "Other"
+        },
+        "product": {
+          "name": "vServer",
+          "uuid": "94BE22C1-8F33-4465-8733-6F6EFA8C87CA",
+          "serial_number": "19996522"
+        },
+        "manufacturer": "Hetzner"
+      },
+      "os": {
+        "name": "CentOS",
+        "family": "RedHat",
+        "release": {
+          "full": "7.9.2009",
+          "major": "7",
+          "minor": "9"
+        },
+        "selinux": {
+          "enabled": true,
+          "enforced": false,
+          "config_mode": "permissive",
+          "current_mode": "permissive",
+          "config_policy": "targeted",
+          "policy_version": "31"
+        },
+        "hardware": "x86_64",
+        "architecture": "x86_64"
+      },
+      "id": "root"
+    },
+    "timestamp": "2022-04-28T12:27:29.090844913+00:00",
+    "expiration": "2022-04-28T12:57:29.090856175+00:00"
+  }

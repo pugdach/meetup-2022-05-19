@@ -1,0 +1,24 @@
+---
+lookup_options:
+  'infrastructure::pkcs_sieben::lookup::sensitive_parameter_lookup':
+    convert_to: 'Sensitive'
+
+classes:
+  - 'infrastructure::base::users_class'
+  - 'infrastructure::base::bash_git_class'
+  - 'infrastructure::base::vim_class'
+  - 'infrastructure::base::sudoers'
+  - 'infrastructure::base::vnc_class'
+  - 'infrastructure::base::hosts'
+  - 'infrastructure::firewall::rules'
+  - 'infrastructure::base::ssl'
+  - 'infrastructure::base::ssh'
+  - 'infrastructure::base::ccze'
+  - 'infrastructure::base::bolt'
+  - 'infrastructure::base::code'
+
+classes_hash:
+  'base_users': 'infrastructure::base::users_class'
+  'ccze_class': 'infrastructure::base::ccze'
+
+

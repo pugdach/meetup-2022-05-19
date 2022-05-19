@@ -1,0 +1,16 @@
+---
+version: 5
+
+defaults:
+  datadir: data
+  data_hash: yaml_data
+
+hierarchy:
+  - name: "yaml hierarchy"
+    paths:
+      - "nodes/%{facts.networking.hostname}.yaml"
+      - "role/%{facts.external_facts.role}-%{facts.external_facts.env}.yaml"
+      - "role/%{facts.external_facts.role}.yaml"
+      - "os/%{facts.os.family}.yaml"
+      - "zone/%{facts.external_facts.zone}.yaml"
+      - "common.yaml"

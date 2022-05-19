@@ -1,0 +1,88 @@
+# Puppet 6 Core Modues
+mod 'puppetlabs/mount_core', :latest
+mod 'puppetlabs/augeas_core', :latest
+mod 'puppetlabs/zfs_core', :latest
+mod 'puppetlabs/yumrepo_core', :latest
+mod 'puppetlabs/host_core', :latest
+mod 'puppetlabs/selinux_core', :latest
+mod 'puppetlabs/zone_core', :latest
+mod 'puppetlabs/cron_core', :latest
+mod 'puppetlabs/sshkeys_core', :latest
+mod 'puppetlabs/nagios_core', :latest
+mod 'puppetlabs/mailalias_core', :latest
+mod 'puppetlabs/macdslocal_core', :latest
+mod 'puppetlabs/maillist_core', :latest
+mod 'puppetlabs/k5login_core', :latest
+
+# Third Party modules
+mod 'puppetlabs/docker', :latest
+mod 'pltraining-rbac', '0.0.10'
+mod 'puppetlabs-pe_databases', '2.2.0'
+mod 'puppetlabs-pe_status_check', '1.3.0'
+
+mod 'puppetlabs/concat',
+  :git => 'https://github.com/puppetlabs/puppetlabs-concat',
+  :ref => 'v7.1.1'
+mod 'puppetlabs/stdlib',
+  :git => 'https://github.com/puppetlabs/puppetlabs-stdlib',
+  :ref => 'v8.1.0'
+mod 'puppetlabs/vcsrepo',
+  :git => 'https://github.com/puppetlabs/puppetlabs-vcsrepo',
+  :ref => 'v5.0.0'
+mod 'puppetlabs/firewall',
+  :git => 'https://github.com/puppetlabs/puppetlabs-firewall',
+  :ref => 'v3.4.0'
+mod 'puppetlabs/inifile',
+  :git => 'https://github.com/puppetlabs/puppetlabs-inifile',
+  :ref => 'v5.2.0'
+mod 'trlinkin/noop',
+  :git => 'https://github.com/trlinkin/trlinkin-noop',
+  :ref => '1.0.1'
+mod 'puppet/archive',
+  :git => 'https://github.com/voxpupuli/puppet-archive',
+  :ref => 'v6.0.2'
+mod 'puppetlabs/postgresql',
+  :git => 'https://github.com/puppetlabs/puppetlabs-postgresql',
+  :ref => 'v8.0.0'
+mod 'puppetlabs/puppetdb',
+  :git => 'https://github.com/puppetlabs/puppetlabs-puppetdb',
+  :ref => '7.10.0'
+mod 'puppet/puppetserver',
+  :git => 'https://github.com/voxpupuli/puppet-puppetserver',
+  :ref => 'v3.0.1'
+mod 'puppetlabs/puppetserver_gem',
+  :git => 'https://github.com/puppetlabs/puppetlabs-puppetserver_gem',
+  :ref => '1.1.1'
+mod 'puppet/r10k',
+  :git => 'https://github.com/voxpupuli/puppet-r10k',
+  :ref => 'v10.1.1'
+mod 'puppetlabs/hocon',
+  :git => 'https://github.com/puppetlabs/puppetlabs-hocon',
+  :ref => 'v1.1.0'
+mod 'puppet/puppetboard',
+  :git => 'https://github.com/voxpupuli/puppet-puppetboard',
+  :ref => 'v8.1.0'
+mod 'puppet/augeasproviders_core',
+  :git => 'https://github.com/voxpupuli/puppet-augeasproviders_core.git',
+  :ref => '3.1.0'
+  mod 'puppet/augeasproviders_sysctl',
+  :git => 'https://github.com/voxpupuli/puppet-augeasproviders_sysctl.git',
+  :ref => '2.6.2'
+mod 'puppet/epel',
+  :git => 'https://github.com/voxpupuli/puppet-epel.git',
+  :ref => 'v4.0.0'
+mod 'puppet/kmod',
+  :git => 'https://github.com/voxpupuli/puppet-kmod.git',
+  :ref => 'v3.1.1'
+mod 'puppetlabs/apache',
+  :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
+  :ref => 'v7.0.0'
+mod 'puppet/systemd',
+  :git => 'https://github.com/voxpupuli/puppet-systemd',
+  :ref => 'v3.8.0'
+mod 'puppetlabs/apt',
+  :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
+  :ref => 'v8.3.0'
+mod 'puppet/nginx',
+  :git => 'https://github.com/voxpupuli/puppet-nginx',
+  :ref => 'v3.3.0'

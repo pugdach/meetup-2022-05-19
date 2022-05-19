@@ -1,0 +1,61 @@
+# Set options
+opts:
+  :manifest: 'manifests/site.pp'
+
+# Classes to be tested
+classes:
+  - '/^infrastructure/'
+
+# Nodes to tests classes on, this refers to a 'factset' or 'nodeset'
+# depending on whether you are running 'spec' or 'acceptance' tests
+nodes:
+  - puppet.training20220427.betadots.training
+  - login.training20220427.betadots.training
+  - student1.training20220427.betadots.training
+
+node_groups:
+  puppet_nodes:
+    - puppet.training20220427.betadots.training
+  login_nodes:
+    - login.training20220427.betadots.training
+
+# You can group classes here to save typing
+class_groups:
+  puppet_classes:
+    - 'infrastructure::puppet::r10k'
+    - 'infrastructure::puppet::autosign'
+    - 'infrastructure::puppet::puppetdb'
+    - 'infrastructure::puppet::puppetboard'
+    - 'infrastructure::puppet::puppetmaster'
+  login_classes:
+    - 'infrastructure::guacamole'
+  base_classes:
+    - 'infrastructure::base::users_class'
+    - 'infrastructure::base::bash_git_class'
+    - 'infrastructure::base::vim_class'
+    - 'infrastructure::base::sudoers'
+    - 'infrastructure::base::vnc_class'
+    - 'infrastructure::base::hosts'
+    - 'infrastructure::firewall::rules'
+    - 'infrastructure::base::ssl'
+    - 'infrastructure::base::ssh'
+    - 'infrastructure::base::ccze'
+    - 'infrastructure::base::bolt'
+    - 'infrastructure::base::code'
+
+# You can group nodes here to save typing
+# We have created a 'non_windows_nodes' group because we can't
+# give you Windows vagrant boxes to test with because licensing,
+# we can give you fact sets though so go crazy with spec testing!
+# node_groups:
+
+test_matrix:
+  - puppet_nodes:
+      classes: 'puppet_classes'
+      tests: 'spec'
+  - login_nodes:
+      classes: 'login_classes'
+      tests: 'spec'
+  - all_nodes:
+      classes: 'base_classes'
+      tests: 'spec'
