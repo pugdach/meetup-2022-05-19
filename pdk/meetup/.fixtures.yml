@@ -1,0 +1,19 @@
+# This file can be used to install module dependencies for unit testing
+# See https://github.com/puppetlabs/puppetlabs_spec_helper#using-fixtures for details
+---
+fixtures:
+  symlinks:
+    meetup: "#{source_dir}"
+  forge_modules:
+    stdlib:
+      repo: "puppetlabs/stdlib"
+      ref: "8.1.0"
+    concat:
+      repo: "puppetlabs/concat"
+      ref: "7.1.1"
+    echo:
+      repo: "ipcrm/echo"
+      ref: "0.1.6"
+    apache:
+      repo: "puppetlabs/apache"
+      ref: "7.0.0"
